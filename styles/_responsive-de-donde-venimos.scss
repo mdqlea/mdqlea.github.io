@@ -1,0 +1,30 @@
+@media screen and (max-width: 768px){
+  .container-donde-venimos{
+    display: inline-block;
+    height: 500px;
+    text-align: center;
+  
+
+    .imagen-cel-donde-venimos{
+      display: inline;
+      position: relative;
+      height: 660px;
+      margin-top: -120px;
+    }
+
+    .texto-donde-venimos{
+      display: inline-block;
+    }
+
+    
+  .titulo-donde-venimos{
+    font-size: 36px;
+    text-align: left;
+  }
+  
+  div p{
+    font-size: 14px;
+    text-align: left;
+  }
+ }
+}

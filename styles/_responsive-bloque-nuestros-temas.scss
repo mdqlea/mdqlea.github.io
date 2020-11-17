@@ -1,0 +1,55 @@
+@media screen and (max-width: 768px){
+
+  .titulo-nuestros-temas{
+    margin-left: 30px;
+    font-size: 36px;
+  }
+
+  .grid-nuestros-temas{
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+    grid-template-columns: 100%;
+  }
+
+  .icon1{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  .icon2{
+    grid-row: 3;
+    grid-column: 1;
+  }
+
+  .icon3{
+    grid-row: 5;
+    grid-column: 1;
+  }
+
+  .icon4{
+    grid-row: 7;
+    grid-column: 1;
+  }
+  
+  .trabajo-remoto{
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .programacion{
+    grid-row: 4;
+    grid-column: 1;
+ }
+
+
+  .codigo{
+    grid-row: 6;
+    grid-column: 1;
+  }
+  
+
+  
+  .seguridad{
+    grid-row: 8;
+    grid-column: 1;
+  }
+  
+}

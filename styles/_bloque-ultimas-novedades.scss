@@ -1,0 +1,67 @@
+.container-ultimas-novedades{
+    display: inline-block;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 42%, 100% 0, 100% 100%, 0% 100%);
+    width: 100%;
+    height: 450px;
+    text-align: center;
+  
+    h3{
+      position: relative;
+      margin-top: 210px;
+      color: white;
+      font-family: 'IBM Plex Sans';
+      font-size: 48px;
+    }
+  
+    button
+    {   
+        font-family: 'IBM Plex Mono Medium', monospace;
+        position: relative;
+        background-color: #00F3BB;
+        border: none;
+        color: #060A24;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px 40px 10px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin-top: 45px;
+        letter-spacing: 0;
+        text-align: center;
+        line-height: 24px;
+    }
+
+  button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    color: white;
+  }
+
+  button:hover{
+    transition: 3.5s;
+    background-image: linear-gradient(225deg, #0000FE 0%, #00F0B8 100%);
+    
+  }
+  
+  button:hover span {
+    padding-right: 25px;
+    color: white;
+  }
+  
+  button:hover span:after {
+    
+    opacity: 1;
+    right: 0;
+  }
+}

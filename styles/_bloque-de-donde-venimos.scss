@@ -1,0 +1,34 @@
+
+  .container-donde-venimos{
+    display: flex;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+
+    .imagen-cel-donde-venimos{
+
+      position: relative;
+      height: 660px;
+      margin-top: -160px;
+    }
+
+    .texto-donde-venimos{
+      padding: 30px;
+      max-width: 500px;
+    }
+
+    .titulo-donde-venimos{
+      font-family: 'IBM Plex Sans', sans-serif;
+      color: #060A24;
+      font-size: 48px;
+      margin-bottom: 20px;
+      margin-left: 0px;
+    }
+
+    div p{
+      font-size: 16px;
+      font-family: 'IBM Plex Mono';
+      line-height: 24px;
+    }
+
+  }
